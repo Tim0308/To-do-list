@@ -1,0 +1,25 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 5px solid #eee;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  .todo-item button {
+    margin-left: auto; /* Push the button to the right */
+    background-color: #f44336; /* Red color for delete button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
