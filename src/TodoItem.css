@@ -36,7 +36,6 @@
   border-radius: 8px;
   cursor: pointer;
   padding: 5px 10px;
-  margin-left: 20px;
-  order: 3; /* Ensure button appears third */
+   
   /* transition: background-color 0.3s; Smooth transition for hover effect */
 /* }  */
