@@ -1,23 +1,12 @@
 # Getting Started with the TO-do list app 
-
 Click on this link to open the application: https://tim0308.github.io/To-do-list/
 
 ### `Add event: 📝`
-
 1) Type the task you need to complete
 2) Press the button 📝 or enter key to add an new task
 3) Use the calendar entry to set a deadline for your task
-4) <div className="add-date">
-            <input 
-                type="date" 
-                value={todo.date || ''} 
-                onChange={handleDateChange} 
-                className="date-input"
-            />
-        </div>
 
 ### `Edit: ✏️`
-
 4) Edit the event you added before by clicking ✏️  and save it with 💾 
 
 ### `Save: 💾`
