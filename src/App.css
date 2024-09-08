@@ -1,8 +1,8 @@
 .App {
   text-align: center;
   font-family: sans-serif;
-  padding: 20px;
-  background-color: #f4f4f4;
+  padding: 40px;
+  background-color: #ffffff;
   min-height: 100vh; /* Ensure the app takes up full viewport height */
   display: flex;
   flex-direction: column;
@@ -13,5 +13,6 @@
 
 .App h1 {
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-family: 'Courier New', cursive;
 }

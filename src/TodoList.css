@@ -1,26 +1,62 @@
 .todo-list {
-    width: 500px;
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Use full width */
+  max-width: 500px; /* Limit maximum width */
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center the list */
+}
+
+
+.todo-list form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.todo-list input {
+  flex-grow: 1;
+  padding: 15px;
+  margin-right: 5px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.todo-list button {
+  padding: 5px 15px;
+  background-color: #bdafaf; /* Green color for the add button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  cursor: pointer;
+  margin-left: 20px;
+  order: 3; /* Ensure button appears third */
+}
+
+.todo-list button:hover {
+  background-color: #a29796; /* Darker green color on hover */
+}
+
+.todo-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  text-align: left; /* Align the items to the left */
+  padding: 10px 0; /* Add padding between items */
+  border-bottom: 1px solid #ddd; /* Add a border between items */
+}
+
+@media (max-width: 600px) {
+  .todo-list {
+    padding: 10px;
   }
-  
-  .todo-list input {
-    width: 200%;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 3px solid #ddd;
-    border-radius: 10px;
-    margin-right: 20px;
-  }
-  
+
   .todo-list button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 20px;
+    padding: 8px 16px;
   }
+}

@@ -1,0 +1,19 @@
+.add-date {
+    margin-left: 50px; /* Space between date input and other elements */
+    margin-right: 0px;
+  }
+  
+  .add-date input[type="date"] {
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    /* Ensure the date input matches the size of other inputs */
+  }
+  
+  .add-date input[type="date"]:hover {
+    border-color: #aaa; /* Darker border color on hover */
+  }
+  
+  
