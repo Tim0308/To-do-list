@@ -19,4 +19,4 @@ Click on this link to open the application: https://tim0308.github.io/To-do-list
 6) Click the tick box to mark your completed task
 
 ### `Bin: 🗑️`
-7) Delete the task
+7) Delete the task with 🗑️
